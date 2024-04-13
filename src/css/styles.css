@@ -1,0 +1,26 @@
+.imgCarouselContainer {
+    max-height: 65vh;
+}
+.imgCarouselContainer img {
+    width: 100%;
+    height: 100%;
+}
+.divImg {
+    width: 100%;
+    height: 200px;
+}
+.divImg img {
+    height: 100%;
+}
+.checked {
+    color: orange;
+}
+.divinfo {
+    margin-top: 30px;
+}
+@media (min-width: 992px) {
+    .divinfo {
+        padding: 0 40px;
+        margin: 0;
+    }
+}
